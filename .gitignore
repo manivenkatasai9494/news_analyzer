@@ -1,0 +1,41 @@
+# ===== Python cache =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== Virtual environment =====
+venv/
+.venv/
+env/
+
+# ===== Environment variables =====
+.env
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+
+# ===== Logs =====
+*.log
+
+# ===== Temporary files =====
+*.tmp
+*.bak
+*.swp
+
+# ===== Node / frontend (if added later) =====
+node_modules/
+
+# ===== Build artifacts =====
+dist/
+build/
+*.egg-info/
+
+# ===== Pinecone / vector files (safety) =====
+*.pkl
+*.faiss
